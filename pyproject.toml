@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "seleniumpro"
+version = "0.1.0"
+description = ""
+authors = ["Jangtaehun <jangth0056@naver.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.17.2"
+webdriver-manager = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
